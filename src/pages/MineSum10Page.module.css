@@ -1,0 +1,114 @@
+.screen {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #b7b7b7 0%, #bdbdbd 35%, #a7a7a7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.panel {
+  width: 520px;
+  background: #c0c0c0;
+  border: 6px solid #f6f6f6;
+  box-shadow: inset 6px 6px 0 #ffffff, inset -6px -6px 0 #8b8b8b, 0 12px 20px rgba(0, 0, 0, 0.18);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #f5f5f5;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: inset 2px 2px 0 #4a4a4a, inset -2px -2px 0 #1b1b1b;
+  gap: 16px;
+}
+
+.sum {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.sumSuccess {
+  color: #3ad65f;
+}
+
+.openedBlock {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.openedLabel {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.defeatMessage {
+  margin: 10px 0 0;
+  padding: 8px 12px;
+  background: #f2ffe8;
+  color: #274e13;
+  border: 1px solid #b5d99c;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.restartButton {
+  min-width: 140px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  background: #ededed;
+  border: 3px solid #ffffff;
+  box-shadow: inset 4px 4px 0 #ffffff, inset -4px -4px 0 #a0a0a0, 0 3px 0 #6d6d6d;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: transform 0.1s ease;
+}
+
+.restartButton:active {
+  transform: translateY(2px);
+  box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #a0a0a0, 0 1px 0 #6d6d6d;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal {
+  background: #ececec;
+  border: 5px solid #ffffff;
+  box-shadow: inset 4px 4px 0 #ffffff, inset -4px -4px 0 #8d8d8d, 0 12px 24px rgba(0, 0, 0, 0.4);
+  padding: 32px 40px;
+  text-align: center;
+}
+
+.modal h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+  color: #9c1c1c;
+}
+
+.modal p {
+  margin-bottom: 24px;
+}
