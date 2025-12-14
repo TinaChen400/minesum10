@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/minesum10/static/css/main.b522cc66.css",
-    "main.js": "/minesum10/static/js/main.43e30a5f.js",
+    "main.js": "/minesum10/static/js/main.d8f762e2.js",
     "static/js/453.eb570f4f.chunk.js": "/minesum10/static/js/453.eb570f4f.chunk.js",
     "index.html": "/minesum10/index.html",
     "main.b522cc66.css.map": "/minesum10/static/css/main.b522cc66.css.map",
-    "main.43e30a5f.js.map": "/minesum10/static/js/main.43e30a5f.js.map",
+    "main.d8f762e2.js.map": "/minesum10/static/js/main.d8f762e2.js.map",
     "453.eb570f4f.chunk.js.map": "/minesum10/static/js/453.eb570f4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b522cc66.css",
-    "static/js/main.43e30a5f.js"
+    "static/js/main.d8f762e2.js"
   ]
 }
